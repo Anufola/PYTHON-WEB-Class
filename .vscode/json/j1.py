@@ -63,5 +63,5 @@ def people_online(x):
     info = x
     condition0 = info["online"] == True
     return condition0
-wepeople = dict(filter(people_online, people.online()))
-print(wepeople)
+# wepeople = dict(filter(people_online, people.online()))
+print(people)
